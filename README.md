@@ -6,7 +6,6 @@
 
 <p align="left">
 
-
  <!-- AWS -->
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png" alt="aws" width="25" height="25" />
 
@@ -66,26 +65,35 @@
 
 </p>
 
+<br />
+
 #### BIO 🙈 🙊 🙉
 
+
 - Software Engineer @ **MetLife** Malaysia
-
-- *** Cloud Certifications ***
-- 3x AWS, 3x Azure, 1x GCP, 2x Alibaba
-- ✅ *AWS Certified Solutions Architect – Professional*
-- ✅ *Microsoft Certified: Azure Administrator Associate*
-- ✅ *Google Cloud Certified Cloud Digital Leader*
-- ✅ *Alibaba Cloud Professional (ACP) - Cloud Computing*
-
 - 🤖 Daily works: Java, SpringBoot, MSSQL, Agile
 - 🌍 Willing to work in **💻Remotely/🇸🇬Singapore/🇲🇾Malaysia**
 - 👾 Interested Direction: **Web3**, **BlockChain**, **SmartContract**, **Fullstack Dev**, **Startup**
 - 💬 Ping me about **interesting learning opportunity**.
 - 📫 Reach me: [Linkedin](https://www.linkedin.com/in/changweihong/)
 
+<br /><br />
+
+##### Cloud Certifications
+- 3x AWS, 3x Azure, 1x GCP, 2x Alibaba
+- ✅ *AWS Certified Solutions Architect – Professional*
+- ✅ *Microsoft Certified: Azure Administrator Associate*
+- ✅ *Google Cloud Certified Cloud Digital Leader*
+- ✅ *Alibaba Cloud Professional (ACP) - Cloud Computing*
+
+<br /><br />
+
 Past experience:
 - Cloud Engineer @ **G-AsiaPacific**
 - Web Developer @ **Coreka**
+
+<br /><br /><br />
+
 
 #### 📈 GitHub Stats
 
