@@ -1,5 +1,3 @@
-## Chang Wei Hong
-
 Backend Engineer · Building APIs, automation, and systems that reach production
 
 I care about architecture that's boring to maintain and hard to break. Currently working across enterprise backend systems, internal tooling, and greenfield products — from initial design to production.
