@@ -1,48 +1,53 @@
-## Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+## Chang Wei Hong
 
-I’m a backend-leaning **Software Engineer** who enjoys turning half-formed ideas into working systems that people can actually use.  
-Mostly building APIs, automation, and backend services — sometimes with servers, sometimes without them.
+Backend Engineer · Building APIs, automation, and systems that reach production
+
+I care about architecture that's boring to maintain and hard to break. Currently working across enterprise backend systems, internal tooling, and greenfield products — from initial design to production.
 
 ---
 
-### ⚙️ Toolbox
+### ⚙️ Primary Stack
 
-<p align="left">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="25" height="25" />&nbsp;
-<img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="25" height="25" />&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="25" height="25" />&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="25" height="25" />&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="25" height="25" />&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="25" height="25" />&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform" width="25" height="25" />&nbsp;
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/aws/aws.png" alt="AWS" width="25" height="25" />&nbsp;
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/azure/azure.png" alt="Azure" width="25" height="25" />&nbsp;
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/google-cloud/google-cloud.png" alt="GCP" width="25" height="25" />
-</p>
+![Java](https://img.shields.io/badge/Java-0C447C?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-27500A?style=flat-square&logo=springboot&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-185FA5?style=flat-square&logo=typescript&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-A32D2D?style=flat-square&logo=nestjs&logoColor=white)
+![Golang](https://img.shields.io/badge/Go-085041?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3B6D11?style=flat-square&logo=python&logoColor=white)
+
+### 🗄️ Data & Infra
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-3C3489?style=flat-square&logo=postgresql&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure_AKS-0C447C?style=flat-square&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-185FA5?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-633806?style=flat-square&logo=terraform&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-085041?style=flat-square&logo=supabase&logoColor=white)
 
 ---
 
 ### 🧩 What I Build
-- Backend systems that scale without drama  
-- Products that actually reach production  
-- Side projects mixing AI, APIs, and real-world use cases  
+
+- Backend systems that scale without drama
+- Products that actually reach production
+- Side projects at the intersection of AI, APIs, and real-world use cases
 
 ---
 
-### ☁️ Certifications (abridged)
-Multi-cloud and AI certified — enough to understand, not enough to make a religion out of it.
+### ☁️ Certifications
+
+Multi-cloud certified across **AWS**, **Azure**, and **GCP** — enough to understand the tradeoffs, not enough to make a religion out of any one vendor.
 
 ---
 
-### 🔭 Current Interests
-**AI engineering**, **full-stack development**, and the intersection of **automation + product thinking**.
+### 🤖 Currently Exploring
+
+AI engineering and agentic workflows — experimenting with LLM tooling, MCP integrations, and agent-driven backend development pipelines.
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <!-- <img src="https://github-readme-stats.vercel.app/api?username=ChangWeiHong&show_icons=true&theme=tokyonight&hide_border=true" height="165" /> -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChangWeiHong&layout=compact&theme=tokyonight&hide_border=true" height="165" />
 </p>
 
