@@ -43,12 +43,4 @@ AI engineering and agentic workflows — experimenting with LLM tooling, MCP int
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChangWeiHong&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-</p>
-
----
-
 📫 [LinkedIn](https://www.linkedin.com/in/changweihong/) · [GitHub](https://github.com/ChangWeiHong)
