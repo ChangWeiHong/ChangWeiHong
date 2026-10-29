@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">hey, I’m Wei Hong</title>
+  <desc id="desc">Backend engineer focused on AI-native workflows for production software. Dimensional code editor and project files with an pixel robot badge; a reviewed code change with test checks and an approval seal.</desc>
+  <defs>
+    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#254854"/><stop offset=".5" stop-color="#54737A"/><stop offset="1" stop-color="#18313D"/></linearGradient>
+    <radialGradient id="moon" cx=".3" cy=".2" r=".8"><stop stop-color="#D4E3DF" stop-opacity=".5"/><stop offset=".55" stop-color="#9BB9BB" stop-opacity=".2"/><stop offset="1" stop-color="#385D69" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glass" x2=".7" y2="1"><stop stop-color="#344247" stop-opacity=".95"/><stop offset=".5" stop-color="#202D32" stop-opacity=".96"/><stop offset="1" stop-color="#28383D" stop-opacity=".94"/></linearGradient>
+    <linearGradient id="edge" x2=".7" y2="1"><stop stop-color="#DCEBE6" stop-opacity=".4"/><stop offset=".4" stop-color="#B0CAC8" stop-opacity=".06"/><stop offset="1" stop-color="#C8DFDB" stop-opacity=".2"/></linearGradient>
+    <linearGradient id="metal" x2=".5" y2="1"><stop stop-color="#5F7377"/><stop offset=".15" stop-color="#3A4D51"/><stop offset="1" stop-color="#1D2B30"/></linearGradient>
+    <linearGradient id="face" x2="1" y2="1"><stop stop-color="#405357"/><stop offset="1" stop-color="#26373C"/></linearGradient>
+    <linearGradient id="ink"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#D5E5E2"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#B0DAD1" stop-opacity=".22"/><stop offset="1" stop-color="#B0DAD1" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".6" fill="#C7DAD5" opacity=".13"/></pattern>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#061218" flood-opacity=".5"/></filter>
+    <filter id="mist"><feGaussianBlur stdDeviation="16"/></filter>
+    <linearGradient id="bevel" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#9AAFAE"/><stop offset=".15" stop-color="#586E71"/><stop offset=".55" stop-color="#293B40"/><stop offset="1" stop-color="#14252C"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#4C6164"/><stop offset=".45" stop-color="#30464B"/><stop offset="1" stop-color="#22363D"/></linearGradient>
+    <linearGradient id="button" x1="0" y1="0" x2=".4" y2="1"><stop stop-color="#8BA19F"/><stop offset=".07" stop-color="#617A7A"/><stop offset=".5" stop-color="#415B5D"/><stop offset="1" stop-color="#293E44"/></linearGradient>
+    <radialGradient id="specular" cx=".2" cy="0" r="1"><stop stop-color="#E3F3E9" stop-opacity=".2"/><stop offset="1" stop-color="#D5E9E5" stop-opacity="0"/></radialGradient>
+    <filter id="contact" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="7"/></filter>
+    <clipPath id="outer"><rect width="1200" height="420" rx="24"/></clipPath>
+    <clipPath id="card"><rect x="30" y="30" width="590" height="360" rx="26"/></clipPath>
+  </defs>
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+    .float{animation:float 7s ease-in-out infinite}.float-two{animation:float 8s -3s ease-in-out infinite}
+    .glow{animation:breathe 6s ease-in-out infinite}.signal{stroke-dasharray:8 220;animation:signal 9s linear infinite}
+    .intro{animation:appear 1.2s ease-out both}
+    @keyframes float{50%{transform:translateY(-6px)}}
+    @keyframes breathe{50%{opacity:.45}}
+    @keyframes signal{to{stroke-dashoffset:-456}}
+    @keyframes appear{from{opacity:0}to{opacity:1}}
+    @media(prefers-reduced-motion:reduce){.float,.float-two,.glow,.signal,.intro{animation:none}}
+  </style>
+  <g clip-path="url(#outer)">
+    <path fill="url(#sky)" d="M0 0H1200V420H0Z"/>
+    <circle cx="1025" cy="70" r="210" fill="url(#moon)"/>
+    <g filter="url(#mist)" fill="#BED4D0" opacity=".16"><ellipse cx="290" cy="380" rx="460" ry="32"/><ellipse cx="1130" cy="335" rx="360" ry="23"/></g>
+    <g fill="none" stroke="#C1D8D5" stroke-opacity=".13"><path d="M10 17H410L432 6H800M855 407H1174V265"/><path d="M15 92V13H149M1150 12H1185V99"/><path d="M0 309Q400 284 1200 310"/></g>
+    <g filter="url(#shadow)">
+      <rect x="30" y="30" width="590" height="360" rx="26" fill="url(#glass)" stroke="url(#edge)"/>
+      <rect x="636" y="30" width="258" height="360" rx="26" fill="url(#glass)" stroke="url(#edge)"/>
+      <rect x="910" y="30" width="260" height="360" rx="26" fill="url(#glass)" stroke="url(#edge)"/>
+    </g>
+    <g clip-path="url(#card)">
+      <circle cx="510" cy="65" r="220" fill="url(#light)" class="glow"/>
+      <path d="M380 30 420 95Q425 104 436 104H520Q532 104 537 94L575 30" fill="#17282D" fill-opacity=".3" stroke="#C2D9D2" stroke-opacity=".09"/>
+      <path d="M404 30 434 78H514L543 30" fill="none" stroke="#C2D9D2" stroke-opacity=".08"/>
+    </g>
+    <g class="intro">
+      <text x="61" y="143" fill="#F0F5F2" font-size="48" font-weight="650" letter-spacing="-1.8">hey, I’m Wei Hong</text>
+      <text x="63" y="193" fill="#D6E2DF" font-size="25" font-weight="500" letter-spacing="-.5">Backend engineer working on</text>
+      <text x="63" y="229" fill="#D6E2DF" font-size="25" font-weight="500" letter-spacing="-.5">AI-native development workflows.</text>
+      <text x="64" y="331" fill="#AABFBE" font-size="15">I’m exploring how to use agents</text>
+      <text x="64" y="354" fill="#AABFBE" font-size="15">to build and maintain production software.</text>
+    </g>
+    <!-- Project files behind a code editor; an assistant tile sits in front. -->
+    <ellipse cx="766" cy="246" rx="80" ry="11" fill="#07161D" opacity=".6" filter="url(#contact)"/>
+    <circle cx="765" cy="151" r="110" fill="url(#light)" class="glow"/>
+    <g class="float">
+      <g transform="translate(702 75) rotate(9 69 70)">
+        <rect x="0" y="7" width="143" height="144" rx="18" fill="#13262D"/>
+        <rect width="143" height="144" rx="18" fill="url(#bevel)"/>
+        <rect x="2" y="2" width="139" height="139" rx="16" fill="url(#panel)"/>
+        <path d="M18 28h8l5 6h27M18 56h9l4 5h38M18 83h8l5 5h31" fill="none" stroke="#D8E5DF" stroke-opacity=".35" stroke-width="2"/>
+        <path d="M22 39v67h58M22 66h48" fill="none" stroke="#A2BFBA" stroke-opacity=".25"/>
+      </g>
+      <g transform="translate(680 104)">
+        <rect x="0" y="9" width="151" height="126" rx="19" fill="#0E2028"/>
+        <rect x="0" y="4" width="151" height="126" rx="19" fill="#263D43"/>
+        <rect width="151" height="126" rx="19" fill="url(#bevel)" stroke="#C6D9D2" stroke-opacity=".25"/>
+        <rect x="3" y="3" width="145" height="119" rx="16" fill="url(#panel)"/>
+        <rect x="4" y="4" width="143" height="117" rx="15" fill="url(#specular)"/>
+        <path d="M15 31H136" stroke="#102B33" stroke-opacity=".65"/>
+        <path d="m31 57-9 9 9 9m22-18 9 9-9 9m-9-25-7 33" fill="none" stroke="#DAE9E0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M77 58h46M77 68h32M24 96h75M24 106h54" stroke="#B7CFCA" stroke-opacity=".36" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(801 167) rotate(-7 28 28)">
+        <rect x="-4" y="7" width="61" height="61" rx="19" fill="#07181F" opacity=".6" filter="url(#contact)"/>
+        <rect y="5" width="58" height="58" rx="17" fill="#13272E"/>
+        <rect width="58" height="58" rx="17" fill="url(#bevel)" stroke="#D5E5DB" stroke-opacity=".4"/>
+        <rect x="3" y="3" width="52" height="51" rx="14" fill="url(#button)"/>
+        <!-- Pixel robot: antenna, square head, ear blocks, and inset eyes. -->
+        <g shape-rendering="crispEdges">
+          <path d="M27 10h4v4h-4zM27 14h4v5h-4zM17 19h24v4h4v18h-4v4H17v-4h-4V23h4zM9 27h4v10H9zM45 27h4v10h-4z" fill="#DCEBE1"/>
+          <path d="M19 25h20v13H19z" fill="#233D43"/>
+          <path d="M22 28h4v4h-4zM32 28h4v4h-4zM23 40h12v2H23z" fill="#DCEBE1"/>
+        </g>
+        <path d="M9 11Q11 6 18 6H41" fill="none" stroke="#E1F0E6" stroke-opacity=".4"/>
+      </g>
+    </g>
+    <text x="660" y="302" fill="#F0F5F2" font-size="20" font-weight="600" letter-spacing="-.4">Agents in the codebase</text>
+    <text x="660" y="329" fill="#AABFBE" font-size="13">Working with project context</text>
+    <text x="660" y="350" fill="#AABFBE" font-size="14">and existing code.</text>
+    <!-- A code change with explicit review checks and a raised approval seal. -->
+    <ellipse cx="1040" cy="247" rx="80" ry="11" fill="#07161D" opacity=".6" filter="url(#contact)"/>
+    <circle cx="1040" cy="147" r="108" fill="url(#light)" class="glow"/>
+    <g class="float-two">
+      <g transform="translate(975 74) rotate(8 70 70)">
+        <rect y="7" width="150" height="150" rx="21" fill="#162930"/>
+        <rect width="150" height="150" rx="21" fill="url(#bevel)"/>
+        <rect x="3" y="3" width="144" height="143" rx="18" fill="url(#panel)"/>
+        <path d="M21 29h97M21 43h67M21 57h85" stroke="#C4DAD0" stroke-opacity=".25" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(946 105)">
+        <rect y="10" width="157" height="129" rx="21" fill="#0C2027"/>
+        <rect y="5" width="157" height="129" rx="21" fill="#263D43"/>
+        <rect width="157" height="129" rx="21" fill="url(#bevel)" stroke="#D2E5DB" stroke-opacity=".25"/>
+        <rect x="3" y="3" width="151" height="122" rx="18" fill="url(#panel)"/>
+        <rect x="4" y="4" width="149" height="120" rx="17" fill="url(#specular)"/>
+        <path d="M15 30H142" stroke="#112C34" stroke-opacity=".7"/>
+        <path d="M17 16h37" stroke="#C6DBD1" stroke-width="3" stroke-opacity=".5" stroke-linecap="round"/>
+        <rect x="15" y="44" width="127" height="24" rx="6" fill="#A4C7B6" fill-opacity=".11"/>
+        <path d="M24 56h8m-4-4v8M44 56h78" stroke="#C5DFCE" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+        <path d="m21 84 4 4 7-8m-11 22 4 4 7-8" fill="none" stroke="#C5DFCE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M44 85h70M44 103h51" stroke="#BCD2C9" stroke-opacity=".42" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(1101 205)">
+        <ellipse cy="10" rx="33" ry="29" fill="#071A21" opacity=".6" filter="url(#contact)"/>
+        <circle cy="5" r="30" fill="#162B32"/>
+        <circle r="30" fill="url(#bevel)" stroke="#C0D7CC" stroke-opacity=".5"/>
+        <circle cy="-1" r="26" fill="url(#button)"/>
+        <path d="M-21-11A24 24 0 0 1 14-20" fill="none" stroke="#DDECE1" stroke-opacity=".4" stroke-linecap="round"/>
+        <path d="m-11-1 7 7 16-17" fill="none" stroke="#E1F1E4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <text x="934" y="302" fill="#F0F5F2" font-size="20" font-weight="600" letter-spacing="-.4">Reviewing the changes</text>
+    <text x="934" y="329" fill="#AABFBE" font-size="14">Checking the diff and tests</text>
+    <text x="934" y="350" fill="#AABFBE" font-size="14">before shipping.</text>
+  </g>
+</svg>
