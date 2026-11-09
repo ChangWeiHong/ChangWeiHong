@@ -1,131 +1,200 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">hey, I’m Wei Hong</title>
-  <desc id="desc">Backend engineer focused on AI-native workflows for production software. Dimensional code editor and project files with an pixel robot badge; a reviewed code change with test checks and an approval seal.</desc>
-  <defs>
-    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#254854"/><stop offset=".5" stop-color="#54737A"/><stop offset="1" stop-color="#18313D"/></linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="hey, I’m Wei Hong. Backend engineer working on AI-native development workflows. A robot builds items, tests catch the broken ones, and a cat stamps the rest.">
+<style>
+.g{opacity:0;animation:good 18s linear infinite}.b{opacity:0;animation:bad 18s linear infinite}
+.duck{opacity:1;transform:translate(330px,276px)}.db{opacity:1;transform:translate(790px,276px)}.laptop{opacity:1;transform:translate(580px,276px)}
+.ok{animation:ok 18s linear infinite}.no{animation:no 18s linear infinite}
+.wip{opacity:0;transform-origin:210px 340px;animation:wip 18s linear infinite}
+.stamp{animation:stamp 18s linear infinite}
+.flap{animation:flap 9s linear infinite;animation-delay:-3s;transform-origin:660px 342px}
+.alert{opacity:0;animation:alert 9s linear infinite;animation-delay:-3s}
+.calm{animation:calm 9s linear infinite;animation-delay:-3s}
+.beam{animation:beam 3s linear infinite}.belt{animation:belt .533s linear infinite}
+.rhead{animation:rhead .6s ease-in-out infinite alternate}.reyes{animation:reyes 1.2s steps(1) infinite}.rant{animation:rant .6s steps(1) infinite}
+.armL{animation:hit .4s ease-in infinite alternate}.armR{animation:hit .4s ease-in infinite alternate;animation-delay:-.4s}
+.s1,.s2,.s3{opacity:0;animation:spark .8s ease-out infinite}.s2{animation-delay:-.27s;--sx:-36px}.s3{animation-delay:-.54s;--sx:32px}
+.scuttle{animation:scuttle .4s ease-in-out infinite alternate}.legs{transform-box:fill-box;transform-origin:center;animation:legs .16s linear infinite alternate}
+.steam{animation:steam 1.6s ease-out infinite}
+@keyframes good{0%{transform:translate(170px,276px);opacity:0}.25%{opacity:1}50%{transform:translate(1290px,276px);opacity:1}50.1%,100%{transform:translate(1290px,276px);opacity:0}}
+@keyframes bad{0%{transform:translate(170px,276px);opacity:0}.25%{opacity:1}18.3%{transform:translate(580px,276px);opacity:1}19%{transform:translate(586px,276px)}19.7%{transform:translate(574px,276px)}20.4%{transform:translate(580px,276px)}25%{transform:translate(580px,276px);opacity:1;animation-timing-function:ease-in}29%{transform:translate(590px,470px) rotate(40deg);opacity:1}29.05%,100%{transform:translate(590px,470px);opacity:0}}
+@keyframes ok{0%,32.9%{opacity:0}33%,50%{opacity:1}50.1%,100%{opacity:0}}
+@keyframes no{0%,18.4%{opacity:0}18.5%,29%{opacity:1}29.05%,100%{opacity:0}}
+@keyframes wip{0%{transform:scaleY(0);opacity:1}15.5%,16.66%{transform:scaleY(1);opacity:1}16.7%,100%{transform:scaleY(1);opacity:0}}
+@keyframes stamp{0%{transform:translateY(18px)}1.6%,31%{transform:none}33%{transform:translateY(20px)}35%,47.6%{transform:none}49.6%{transform:translateY(20px)}51.6%,81%{transform:none}83%{transform:translateY(20px)}85%,97.6%{transform:none}99.6%,100%{transform:translateY(20px)}}
+@keyframes flap{0%,49%{transform:none}51%,58%{transform:rotate(-80deg)}62%,100%{transform:none}}
+@keyframes alert{0%,36.9%{opacity:0}37%,40%{opacity:1}40.1%,43%{opacity:.15}43.1%,46%{opacity:1}46.1%,49%{opacity:.15}49.1%,52%{opacity:1}52.1%,55%{opacity:.15}55.1%,58%{opacity:1}58.1%,100%{opacity:0}}
+@keyframes calm{0%,36.9%{opacity:1}37%,58%{opacity:0}58.1%,100%{opacity:1}}
+@keyframes beam{0%{transform:translateX(0)}50%{transform:translateX(92px)}100%{transform:translateX(0)}}
+@keyframes belt{to{stroke-dashoffset:-64}}
+@keyframes rhead{to{transform:translateY(-4px)}}
+@keyframes reyes{0%{transform:translateX(-2px)}50%{transform:translateX(2px)}}
+@keyframes rant{0%{fill:#111111}50%{fill:#FBFBF7}}
+@keyframes hit{from{transform:translateY(-12px)}to{transform:translateY(10px)}}
+@keyframes spark{0%{opacity:1;transform:none}100%{opacity:0;transform:translate(var(--sx,4px),-56px)}}
+@keyframes scuttle{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@keyframes legs{from{transform:scaleY(.8)}to{transform:scaleY(1.1)}}
+@keyframes steam{0%{opacity:0;transform:translateY(8px)}40%{opacity:1}100%{opacity:0;transform:translateY(-8px)}}
+.wag{transform-origin:238px 318px;animation:wag 1s ease-in-out infinite alternate}
+.breathe{animation:breathe 1s ease-in-out infinite alternate}
+.bell{transform-origin:200px 230px;animation:bell .5s ease-in-out infinite alternate}
+.blink{transform-box:fill-box;transform-origin:center;animation:blink 4s linear infinite}
+@keyframes wag{from{transform:rotate(-5deg)}to{transform:rotate(7deg)}}
+@keyframes breathe{to{transform:scale(1.012,.988)}}
+@keyframes bell{from{transform:rotate(-14deg)}to{transform:rotate(14deg)}}
+@keyframes blink{0%,92%,100%{transform:none}96%{transform:scaleY(.13)}}
+@media(prefers-reduced-motion:reduce){.wag,.breathe,.bell,.blink,.g,.b,.ok,.no,.wip,.stamp,.flap,.alert,.calm,.beam,.belt,.rhead,.reyes,.rant,.armL,.armR,.s1,.s2,.s3,.scuttle,.legs,.steam{animation:none}}
+</style>
+<defs>    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#254854"/><stop offset=".5" stop-color="#54737A"/><stop offset="1" stop-color="#18313D"/></linearGradient>
     <radialGradient id="moon" cx=".3" cy=".2" r=".8"><stop stop-color="#D4E3DF" stop-opacity=".5"/><stop offset=".55" stop-color="#9BB9BB" stop-opacity=".2"/><stop offset="1" stop-color="#385D69" stop-opacity="0"/></radialGradient>
-    <linearGradient id="glass" x2=".7" y2="1"><stop stop-color="#344247" stop-opacity=".95"/><stop offset=".5" stop-color="#202D32" stop-opacity=".96"/><stop offset="1" stop-color="#28383D" stop-opacity=".94"/></linearGradient>
-    <linearGradient id="edge" x2=".7" y2="1"><stop stop-color="#DCEBE6" stop-opacity=".4"/><stop offset=".4" stop-color="#B0CAC8" stop-opacity=".06"/><stop offset="1" stop-color="#C8DFDB" stop-opacity=".2"/></linearGradient>
-    <linearGradient id="metal" x2=".5" y2="1"><stop stop-color="#5F7377"/><stop offset=".15" stop-color="#3A4D51"/><stop offset="1" stop-color="#1D2B30"/></linearGradient>
-    <linearGradient id="face" x2="1" y2="1"><stop stop-color="#405357"/><stop offset="1" stop-color="#26373C"/></linearGradient>
-    <linearGradient id="ink"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#D5E5E2"/></linearGradient>
     <radialGradient id="light"><stop stop-color="#B0DAD1" stop-opacity=".22"/><stop offset="1" stop-color="#B0DAD1" stop-opacity="0"/></radialGradient>
+    <linearGradient id="bevel" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#9AAFAE"/><stop offset=".15" stop-color="#586E71"/><stop offset=".55" stop-color="#293B40"/><stop offset="1" stop-color="#14252C"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#4C6164"/><stop offset=".45" stop-color="#30464B"/><stop offset="1" stop-color="#22363D"/></linearGradient>
+    <linearGradient id="metal" x2=".5" y2="1"><stop stop-color="#5F7377"/><stop offset=".15" stop-color="#3A4D51"/><stop offset="1" stop-color="#1D2B30"/></linearGradient>
+    <linearGradient id="steel" x2="0" y2="1"><stop stop-color="#C9D8D5"/><stop offset=".45" stop-color="#7F9597"/><stop offset="1" stop-color="#34474C"/></linearGradient>
+    <radialGradient id="specular" cx=".2" cy="0" r="1"><stop stop-color="#E3F3E9" stop-opacity=".2"/><stop offset="1" stop-color="#D5E9E5" stop-opacity="0"/></radialGradient>
+    <radialGradient id="fur" cx=".38" cy=".28" r=".8"><stop stop-color="#B9A890"/><stop offset=".5" stop-color="#8A7A66"/><stop offset="1" stop-color="#4C4136"/></radialGradient>
+    <radialGradient id="ginger" cx=".5" cy=".5" r=".5"><stop stop-color="#C99662" stop-opacity=".9"/><stop offset="1" stop-color="#C99662" stop-opacity="0"/></radialGradient>
+    <radialGradient id="catEye" cx=".4" cy=".35" r=".7"><stop stop-color="#EEF2B8"/><stop offset=".55" stop-color="#B4C064"/><stop offset="1" stop-color="#6C7834"/></radialGradient>
+    <radialGradient id="bell" cx=".35" cy=".3" r=".7"><stop stop-color="#E07A7A"/><stop offset=".5" stop-color="#9E2F3A"/><stop offset="1" stop-color="#4E1018"/></radialGradient>
+    <radialGradient id="disc" cx=".45" cy=".35" r=".7"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#DCE7E4"/></radialGradient>
+    <radialGradient id="iris" cx=".4" cy=".35" r=".7"><stop stop-color="#FFE48A"/><stop offset=".6" stop-color="#F2B92B"/><stop offset="1" stop-color="#B9800F"/></radialGradient>
     <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".6" fill="#C7DAD5" opacity=".13"/></pattern>
     <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#061218" flood-opacity=".5"/></filter>
     <filter id="mist"><feGaussianBlur stdDeviation="16"/></filter>
-    <linearGradient id="bevel" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#9AAFAE"/><stop offset=".15" stop-color="#586E71"/><stop offset=".55" stop-color="#293B40"/><stop offset="1" stop-color="#14252C"/></linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#4C6164"/><stop offset=".45" stop-color="#30464B"/><stop offset="1" stop-color="#22363D"/></linearGradient>
-    <linearGradient id="button" x1="0" y1="0" x2=".4" y2="1"><stop stop-color="#8BA19F"/><stop offset=".07" stop-color="#617A7A"/><stop offset=".5" stop-color="#415B5D"/><stop offset="1" stop-color="#293E44"/></linearGradient>
-    <radialGradient id="specular" cx=".2" cy="0" r="1"><stop stop-color="#E3F3E9" stop-opacity=".2"/><stop offset="1" stop-color="#D5E9E5" stop-opacity="0"/></radialGradient>
-    <filter id="contact" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="7"/></filter>
-    <clipPath id="outer"><rect width="1200" height="420" rx="24"/></clipPath>
-    <clipPath id="card"><rect x="30" y="30" width="590" height="360" rx="26"/></clipPath>
-  </defs>
-  <style>
-    text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
-    .float{animation:float 7s ease-in-out infinite}.float-two{animation:float 8s -3s ease-in-out infinite}
-    .glow{animation:breathe 6s ease-in-out infinite}.signal{stroke-dasharray:8 220;animation:signal 9s linear infinite}
-    .intro{animation:appear 1.2s ease-out both}
-    @keyframes float{50%{transform:translateY(-6px)}}
-    @keyframes breathe{50%{opacity:.45}}
-    @keyframes signal{to{stroke-dashoffset:-456}}
-    @keyframes appear{from{opacity:0}to{opacity:1}}
-    @media(prefers-reduced-motion:reduce){.float,.float-two,.glow,.signal,.intro{animation:none}}
-  </style>
-  <g clip-path="url(#outer)">
-    <path fill="url(#sky)" d="M0 0H1200V420H0Z"/>
-    <circle cx="1025" cy="70" r="210" fill="url(#moon)"/>
-    <g filter="url(#mist)" fill="#BED4D0" opacity=".16"><ellipse cx="290" cy="380" rx="460" ry="32"/><ellipse cx="1130" cy="335" rx="360" ry="23"/></g>
-    <g fill="none" stroke="#C1D8D5" stroke-opacity=".13"><path d="M10 17H410L432 6H800M855 407H1174V265"/><path d="M15 92V13H149M1150 12H1185V99"/><path d="M0 309Q400 284 1200 310"/></g>
-    <g filter="url(#shadow)">
-      <rect x="30" y="30" width="590" height="360" rx="26" fill="url(#glass)" stroke="url(#edge)"/>
-      <rect x="636" y="30" width="258" height="360" rx="26" fill="url(#glass)" stroke="url(#edge)"/>
-      <rect x="910" y="30" width="260" height="360" rx="26" fill="url(#glass)" stroke="url(#edge)"/>
-    </g>
-    <g clip-path="url(#card)">
-      <circle cx="510" cy="65" r="220" fill="url(#light)" class="glow"/>
-      <path d="M380 30 420 95Q425 104 436 104H520Q532 104 537 94L575 30" fill="#17282D" fill-opacity=".3" stroke="#C2D9D2" stroke-opacity=".09"/>
-      <path d="M404 30 434 78H514L543 30" fill="none" stroke="#C2D9D2" stroke-opacity=".08"/>
-    </g>
-    <g class="intro">
-      <text x="61" y="143" fill="#F0F5F2" font-size="48" font-weight="650" letter-spacing="-1.8">hey, I’m Wei Hong</text>
-      <text x="63" y="193" fill="#D6E2DF" font-size="25" font-weight="500" letter-spacing="-.5">Backend engineer working on</text>
-      <text x="63" y="229" fill="#D6E2DF" font-size="25" font-weight="500" letter-spacing="-.5">AI-native development workflows.</text>
-      <text x="64" y="331" fill="#AABFBE" font-size="15">I’m exploring how to use agents</text>
-      <text x="64" y="354" fill="#AABFBE" font-size="15">to build and maintain production software.</text>
-    </g>
-    <!-- Project files behind a code editor; an assistant tile sits in front. -->
-    <ellipse cx="766" cy="246" rx="80" ry="11" fill="#07161D" opacity=".6" filter="url(#contact)"/>
-    <circle cx="765" cy="151" r="110" fill="url(#light)" class="glow"/>
-    <g class="float">
-      <g transform="translate(702 75) rotate(9 69 70)">
-        <rect x="0" y="7" width="143" height="144" rx="18" fill="#13262D"/>
-        <rect width="143" height="144" rx="18" fill="url(#bevel)"/>
-        <rect x="2" y="2" width="139" height="139" rx="16" fill="url(#panel)"/>
-        <path d="M18 28h8l5 6h27M18 56h9l4 5h38M18 83h8l5 5h31" fill="none" stroke="#D8E5DF" stroke-opacity=".35" stroke-width="2"/>
-        <path d="M22 39v67h58M22 66h48" fill="none" stroke="#A2BFBA" stroke-opacity=".25"/>
-      </g>
-      <g transform="translate(680 104)">
-        <rect x="0" y="9" width="151" height="126" rx="19" fill="#0E2028"/>
-        <rect x="0" y="4" width="151" height="126" rx="19" fill="#263D43"/>
-        <rect width="151" height="126" rx="19" fill="url(#bevel)" stroke="#C6D9D2" stroke-opacity=".25"/>
-        <rect x="3" y="3" width="145" height="119" rx="16" fill="url(#panel)"/>
-        <rect x="4" y="4" width="143" height="117" rx="15" fill="url(#specular)"/>
-        <path d="M15 31H136" stroke="#102B33" stroke-opacity=".65"/>
-        <path d="m31 57-9 9 9 9m22-18 9 9-9 9m-9-25-7 33" fill="none" stroke="#DAE9E0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M77 58h46M77 68h32M24 96h75M24 106h54" stroke="#B7CFCA" stroke-opacity=".36" stroke-width="3" stroke-linecap="round"/>
-      </g>
-      <g transform="translate(801 167) rotate(-7 28 28)">
-        <rect x="-4" y="7" width="61" height="61" rx="19" fill="#07181F" opacity=".6" filter="url(#contact)"/>
-        <rect y="5" width="58" height="58" rx="17" fill="#13272E"/>
-        <rect width="58" height="58" rx="17" fill="url(#bevel)" stroke="#D5E5DB" stroke-opacity=".4"/>
-        <rect x="3" y="3" width="52" height="51" rx="14" fill="url(#button)"/>
-        <!-- Pixel robot: antenna, square head, ear blocks, and inset eyes. -->
-        <g shape-rendering="crispEdges">
-          <path d="M27 10h4v4h-4zM27 14h4v5h-4zM17 19h24v4h4v18h-4v4H17v-4h-4V23h4zM9 27h4v10H9zM45 27h4v10h-4z" fill="#DCEBE1"/>
-          <path d="M19 25h20v13H19z" fill="#233D43"/>
-          <path d="M22 28h4v4h-4zM32 28h4v4h-4zM23 40h12v2H23z" fill="#DCEBE1"/>
+    <filter id="contact" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="7"/></filter><clipPath id="square"><rect width="1200" height="420"/></clipPath></defs>
+<g clip-path="url(#square)">
+<rect width="1200" height="420" fill="#FFD91A"/><rect width="1200" height="158" fill="#FBFBF7"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" fill="#111111"><text x="40" y="92" font-size="86" font-weight="900" letter-spacing="-3.4">HEY, I’M WEI HONG</text>
+<text x="44" y="138" font-size="30" font-weight="600" letter-spacing="-.4">Backend engineer working on AI-native development workflows.</text>
+<g font-size="28" font-weight="800"><text x="140" y="214" text-anchor="end">agent</text><text class="calm" x="676" y="214">tests</text></g></g>
+<rect y="155" width="1200" height="6" fill="#111111"/><rect class="alert" y="152" width="1200" height="12" fill="#D1242F"/>
+<path d="M604 223v-17a16 16 0 0 1 32 0v17z" fill="#FBFBF7" stroke="#111111" stroke-width="4"/>
+<g transform="translate(890 59) scale(.85)">      
+      <g class="wag" fill="none" stroke-linecap="round">
+        <path id="tail" d="M238 318 Q312 322 302 252">
+          
+        </path>
+        <use href="#tail" stroke="#3E352C" stroke-width="20"/>
+        <use href="#tail" stroke="#8A7A66" stroke-width="15"/>
+        <use href="#tail" stroke="#3E352C" stroke-width="15" stroke-dasharray="5 9" stroke-opacity=".75"/>
+      </g>      
+      <g transform="translate(200 340)">
+        <g class="breathe">
+          
+          <g transform="translate(-200 -340)">
+            
+            <ellipse cx="200" cy="262" rx="70" ry="78" fill="url(#fur)" stroke="#3E352C" stroke-width="1.5"/>
+            <ellipse cx="200" cy="272" rx="42" ry="56" fill="url(#disc)"/>
+            <g fill="none" stroke="#3E352C" stroke-width="5" stroke-linecap="round" stroke-opacity=".7">
+              <path d="M136 240 q12 4 18 14"/><path d="M132 266 q14 2 20 12"/><path d="M136 292 q12 0 18 10"/>
+              <path d="M264 240 q-12 4 -18 14"/><path d="M268 266 q-14 2 -20 12"/><path d="M264 292 q-12 0 -18 10"/>
+            </g>
+            <ellipse cx="166" cy="236" rx="16" ry="30" fill="#FFFFFF" opacity=".18"/>
+
+            
+            <path d="M136 146 L134 84 L182 120 Z" fill="url(#fur)" stroke="#3E352C" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M264 146 L266 84 L218 120 Z" fill="url(#fur)" stroke="#3E352C" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M144 134 L142 98 L170 120 Z" fill="#D8B8A2"/>
+            <path d="M256 134 L258 98 L230 120 Z" fill="#D8B8A2"/>
+
+            
+            <ellipse cx="200" cy="170" rx="72" ry="58" fill="url(#fur)" stroke="#3E352C" stroke-width="1.5"/>
+            <ellipse cx="172" cy="170" rx="34" ry="28" fill="url(#ginger)"/>
+            <ellipse cx="232" cy="150" rx="26" ry="20" fill="url(#ginger)"/>
+            <ellipse cx="176" cy="128" rx="28" ry="10" fill="#FFFFFF" opacity=".28" transform="rotate(-15 176 128)"/>
+
+            
+            <g fill="none" stroke="#3E352C" stroke-width="4" stroke-linecap="round" stroke-opacity=".8">
+              <path d="M200 116 v24"/><path d="M188 118 l2 18"/><path d="M212 118 l-2 18"/>
+              <path d="M176 122 l6 12"/><path d="M224 122 l-6 12"/>
+              <path d="M132 168 h16"/><path d="M134 180 h14"/>
+              <path d="M268 168 h-16"/><path d="M266 180 h-14"/>
+            </g>
+
+            
+            <ellipse cx="200" cy="211" rx="15" ry="9" fill="url(#disc)"/>
+            <ellipse cx="189" cy="197" rx="15" ry="12" fill="url(#disc)"/>
+            <ellipse cx="211" cy="197" rx="15" ry="12" fill="url(#disc)"/>
+
+            
+            <ellipse class="blink" cx="174" cy="165" rx="17" ry="15" fill="url(#catEye)" stroke="#1D2B30" stroke-width="2.5">
+              
+            </ellipse>
+            <ellipse class="blink" cx="226" cy="165" rx="17" ry="15" fill="url(#catEye)" stroke="#1D2B30" stroke-width="2.5">
+              
+            </ellipse>
+            <ellipse class="blink" cx="175" cy="166" rx="3.5" ry="11" fill="#0B1418">
+              
+              
+              
+            </ellipse>
+            <ellipse class="blink" cx="225" cy="166" rx="3.5" ry="11" fill="#0B1418">
+              
+              
+              
+            </ellipse>
+            <circle cx="180" cy="160" r="2.5" fill="#fff"/>
+            <circle cx="231" cy="160" r="2.5" fill="#fff"/>
+
+            
+            <path d="M156 142 L190 150" stroke="#2E2620" stroke-width="5" stroke-linecap="round"/>
+            <path d="M244 142 L210 150" stroke="#2E2620" stroke-width="5" stroke-linecap="round"/>
+
+            
+            <path d="M193 186 L207 186 L200 194 Z" fill="#C4847A" stroke="#7A4A44" stroke-width="1"/>
+            <path d="M200 194 v5 M200 199 q-5 5 -10 1 M200 199 q5 5 10 1" fill="none" stroke="#2E2620" stroke-width="2" stroke-linecap="round"/>
+            <g stroke="#F2EEE8" stroke-width="1.5" stroke-linecap="round" opacity=".85">
+              <path d="M180 196 L140 190M180 200 L142 202M220 196 L260 190M220 200 L258 202"/>
+            </g>
+
+            
+            <path d="M150 220 Q200 240 250 220" fill="none" stroke="#14191C" stroke-width="9" stroke-linecap="round"/>
+            <g class="bell">
+              
+              <circle cx="200" cy="232" r="3" fill="none" stroke="#9AA6A8" stroke-width="2"/>
+              <circle cx="200" cy="242" r="8" fill="url(#bell)"/>
+              <path d="M194 244 h12" stroke="#2A0A10" stroke-width="1.5"/>
+              <circle cx="197" cy="239" r="2" fill="#FFFFFF" opacity=".7"/>
+            </g>
+          </g>
         </g>
-        <path d="M9 11Q11 6 18 6H41" fill="none" stroke="#E1F0E6" stroke-opacity=".4"/>
-      </g>
-    </g>
-    <text x="660" y="302" fill="#F0F5F2" font-size="20" font-weight="600" letter-spacing="-.4">Agents in the codebase</text>
-    <text x="660" y="329" fill="#AABFBE" font-size="13">Working with project context</text>
-    <text x="660" y="350" fill="#AABFBE" font-size="14">and existing code.</text>
-    <!-- A code change with explicit review checks and a raised approval seal. -->
-    <ellipse cx="1040" cy="247" rx="80" ry="11" fill="#07161D" opacity=".6" filter="url(#contact)"/>
-    <circle cx="1040" cy="147" r="108" fill="url(#light)" class="glow"/>
-    <g class="float-two">
-      <g transform="translate(975 74) rotate(8 70 70)">
-        <rect y="7" width="150" height="150" rx="21" fill="#162930"/>
-        <rect width="150" height="150" rx="21" fill="url(#bevel)"/>
-        <rect x="3" y="3" width="144" height="143" rx="18" fill="url(#panel)"/>
-        <path d="M21 29h97M21 43h67M21 57h85" stroke="#C4DAD0" stroke-opacity=".25" stroke-width="3" stroke-linecap="round"/>
-      </g>
-      <g transform="translate(946 105)">
-        <rect y="10" width="157" height="129" rx="21" fill="#0C2027"/>
-        <rect y="5" width="157" height="129" rx="21" fill="#263D43"/>
-        <rect width="157" height="129" rx="21" fill="url(#bevel)" stroke="#D2E5DB" stroke-opacity=".25"/>
-        <rect x="3" y="3" width="151" height="122" rx="18" fill="url(#panel)"/>
-        <rect x="4" y="4" width="149" height="120" rx="17" fill="url(#specular)"/>
-        <path d="M15 30H142" stroke="#112C34" stroke-opacity=".7"/>
-        <path d="M17 16h37" stroke="#C6DBD1" stroke-width="3" stroke-opacity=".5" stroke-linecap="round"/>
-        <rect x="15" y="44" width="127" height="24" rx="6" fill="#A4C7B6" fill-opacity=".11"/>
-        <path d="M24 56h8m-4-4v8M44 56h78" stroke="#C5DFCE" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
-        <path d="m21 84 4 4 7-8m-11 22 4 4 7-8" fill="none" stroke="#C5DFCE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M44 85h70M44 103h51" stroke="#BCD2C9" stroke-opacity=".42" stroke-width="3" stroke-linecap="round"/>
-      </g>
-      <g transform="translate(1101 205)">
-        <ellipse cy="10" rx="33" ry="29" fill="#071A21" opacity=".6" filter="url(#contact)"/>
-        <circle cy="5" r="30" fill="#162B32"/>
-        <circle r="30" fill="url(#bevel)" stroke="#C0D7CC" stroke-opacity=".5"/>
-        <circle cy="-1" r="26" fill="url(#button)"/>
-        <path d="M-21-11A24 24 0 0 1 14-20" fill="none" stroke="#DDECE1" stroke-opacity=".4" stroke-linecap="round"/>
-        <path d="m-11-1 7 7 16-17" fill="none" stroke="#E1F1E4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      </g>
-    </g>
-    <text x="934" y="302" fill="#F0F5F2" font-size="20" font-weight="600" letter-spacing="-.4">Reviewing the changes</text>
-    <text x="934" y="329" fill="#AABFBE" font-size="14">Checking the diff and tests</text>
-    <text x="934" y="350" fill="#AABFBE" font-size="14">before shipping.</text>
-  </g>
+      </g></g>
+<g class="g duck" style="animation-delay:0s"><g stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="#FBFBF7"><path d="M12 42L2 30l14 6z"/><ellipse cx="38" cy="47" rx="30" ry="16"/><circle cx="58" cy="22" r="15"/></g>
+<path d="M72 17l14 6-14 6z" fill="#111111"/><circle cx="62" cy="19" r="3.5" fill="#111111"/><path d="M24 46q14 12 28 0" fill="none" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><g class="ok" style="animation-delay:0s"><rect x="52" y="-16" width="34" height="34" fill="#111111"/><path d="M59 1l7 8 13-15" fill="none" stroke="#FFD91A" stroke-width="6"/></g></g><g class="b laptop" style="animation-delay:-3s"><g stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="#FBFBF7"><rect x="10" y="2" width="60" height="46"/><path d="M0 50h80l-6 13H6z"/></g><path d="M20 14h28M20 24h38M20 34h20" fill="none" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><g class="no" style="animation-delay:-3s"><rect x="12" y="4" width="56" height="42" fill="#D1242F"/><path d="M40 25l-10-20M40 25l15-20M40 25l-26 7M40 25l27 12M40 25l-6 21" fill="none" stroke="#FBFBF7" stroke-width="4"/><g transform="translate(40 27) scale(0.85)"><g class="scuttle">
+<path class="legs" d="M-12-8l-12-7M-14 1h-13M-12 10l-12 8M12-8l12-7M14 1h13M12 10l12 8" fill="none" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+<path d="M-4-26l-6-9M4-26l6-9" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round"/><circle cy="-20" r="8" fill="#111111"/>
+<ellipse rx="14" ry="18" fill="#D1242F" stroke="#111111" stroke-width="4"/><path d="M0-17V17" stroke="#111111" stroke-width="3"/><circle cx="-6" cy="-2" r="3" fill="#111111"/><circle cx="6" cy="6" r="3" fill="#111111"/>
+</g></g></g></g><g class="g db" style="animation-delay:-6s"><g stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="#FBFBF7"><path d="M10 12v40a30 10 0 0 0 60 0V12"/><ellipse cx="40" cy="12" rx="30" ry="10"/></g>
+<path d="M10 26a30 10 0 0 0 60 0M10 40a30 10 0 0 0 60 0" fill="none" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><g class="ok" style="animation-delay:-6s"><rect x="52" y="-16" width="34" height="34" fill="#111111"/><path d="M59 1l7 8 13-15" fill="none" stroke="#FFD91A" stroke-width="6"/></g></g><g class="g mug" style="animation-delay:-15s"><path d="M58 26h9q9 0 9 9v9q0 9-9 9h-9" fill="none" stroke="#111111" stroke-width="7"/><rect x="12" y="14" width="46" height="50" fill="#FBFBF7" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="35" y="49" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" font-weight="800" fill="#111111">{ }</text>
+<path class="steam" d="M26 6q-6-7 0-13t0-13M44 6q-6-7 0-13t0-13" fill="none" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><g class="ok" style="animation-delay:-15s"><rect x="52" y="-16" width="34" height="34" fill="#111111"/><path d="M59 1l7 8 13-15" fill="none" stroke="#FFD91A" stroke-width="6"/></g></g><g class="b egg" style="animation-delay:-12s"><path d="M40-6C62-6 70 30 70 40 70 56 56 64 40 64S10 56 10 40C10 30 18-6 40-6z" fill="#FBFBF7" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><g class="no" style="animation-delay:-12s"><path d="M12 34l10-11 8 11 10-13 10 11 8-9 11 11" fill="none" stroke="#D1242F" stroke-width="7" stroke-linejoin="round"/><g transform="translate(40 -4) scale(0.95)"><g class="scuttle">
+<path class="legs" d="M-12-8l-12-7M-14 1h-13M-12 10l-12 8M12-8l12-7M14 1h13M12 10l12 8" fill="none" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+<path d="M-4-26l-6-9M4-26l6-9" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round"/><circle cy="-20" r="8" fill="#111111"/>
+<ellipse rx="14" ry="18" fill="#D1242F" stroke="#111111" stroke-width="4"/><path d="M0-17V17" stroke="#111111" stroke-width="3"/><circle cx="-6" cy="-2" r="3" fill="#111111"/><circle cx="6" cy="6" r="3" fill="#111111"/>
+</g></g></g></g><g class="g rocket" style="animation-delay:-9s"><g stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="#FBFBF7"><path d="M20 26L6 46v16l14-10zM60 26l14 20v16L60 52z"/><path d="M40-24q20 24 20 52v22H20V28q0-28 20-52z"/><rect x="30" y="50" width="20" height="13" fill="#111111"/><circle cx="40" cy="10" r="9"/></g>
+<path d="M21 34h38" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="none"/><g class="ok" style="animation-delay:-9s"><rect x="52" y="-16" width="34" height="34" fill="#111111"/><path d="M59 1l7 8 13-15" fill="none" stroke="#FFD91A" stroke-width="6"/></g></g>
+<g class="wip" style="animation-delay:-3s"><g transform="translate(170 276)"><g stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="#FBFBF7"><path d="M12 42L2 30l14 6z"/><ellipse cx="38" cy="47" rx="30" ry="16"/><circle cx="58" cy="22" r="15"/></g>
+<path d="M72 17l14 6-14 6z" fill="#111111"/><circle cx="62" cy="19" r="3.5" fill="#111111"/><path d="M24 46q14 12 28 0" fill="none" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></g></g><g class="wip" style="animation-delay:-6s"><g transform="translate(170 276)"><g stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="#FBFBF7"><rect x="10" y="2" width="60" height="46"/><path d="M0 50h80l-6 13H6z"/></g><path d="M20 14h28M20 24h38M20 34h20" fill="none" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></g></g><g class="wip" style="animation-delay:-9s"><g transform="translate(170 276)"><g stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="#FBFBF7"><path d="M10 12v40a30 10 0 0 0 60 0V12"/><ellipse cx="40" cy="12" rx="30" ry="10"/></g>
+<path d="M10 26a30 10 0 0 0 60 0M10 40a30 10 0 0 0 60 0" fill="none" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></g></g><g class="wip" style="animation-delay:0s"><g transform="translate(170 276)"><path d="M58 26h9q9 0 9 9v9q0 9-9 9h-9" fill="none" stroke="#111111" stroke-width="7"/><rect x="12" y="14" width="46" height="50" fill="#FBFBF7" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="35" y="49" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" font-weight="800" fill="#111111">{ }</text>
+<path class="steam" d="M26 6q-6-7 0-13t0-13M44 6q-6-7 0-13t0-13" fill="none" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></g></g><g class="wip" style="animation-delay:-15s"><g transform="translate(170 276)"><path d="M40-6C62-6 70 30 70 40 70 56 56 64 40 64S10 56 10 40C10 30 18-6 40-6z" fill="#FBFBF7" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></g></g><g class="wip" style="animation-delay:-12s"><g transform="translate(170 276)"><g stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="#FBFBF7"><path d="M20 26L6 46v16l14-10zM60 26l14 20v16L60 52z"/><path d="M40-24q20 24 20 52v22H20V28q0-28 20-52z"/><rect x="30" y="50" width="20" height="13" fill="#111111"/><circle cx="40" cy="10" r="9"/></g>
+<path d="M21 34h38" stroke="#111111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="none"/></g></g>
+<g transform="translate(142 154) scale(2)"><g class="rhead" shape-rendering="crispEdges">
+<path class="armL" d="M14 45h6v16h-6zM10 61h14v6H10z" fill="#111111"/><path class="armR" d="M38 45h6v16h-6zM34 61h14v6H34z" fill="#111111"/>
+<path class="rant" d="M27 10h4v4h-4z" fill="#111111"/><path d="M27 14h4v5h-4zM17 19h24v4h4v18h-4v4H17v-4h-4V23h4zM9 27h4v10H9zM45 27h4v10h-4z" fill="#111111"/>
+<path d="M19 25h20v13H19z" fill="#FBFBF7"/><path class="reyes" d="M22 28h4v4h-4zM32 28h4v4h-4z" fill="#111111"/><path d="M23 40h12v2H23z" fill="#FBFBF7"/>
+</g></g>
+<g fill="#111111"><rect class="s1" x="204" y="262" width="9" height="9"/><rect class="s2" x="204" y="262" width="9" height="9"/><rect class="s3" x="204" y="262" width="9" height="9"/></g>
+<path d="M566 226V340M674 226V340M560 226H680" fill="none" stroke="#111111" stroke-width="6"/>
+<g class="calm"><rect class="beam" x="574" y="232" width="10" height="104" fill="#111111" opacity=".8"/></g>
+<rect class="alert" x="569" y="229" width="102" height="108" fill="#D1242F" fill-opacity=".4"/>
+<path class="alert" d="M566 226V340M674 226V340M560 226H680" fill="none" stroke="#D1242F" stroke-width="6"/>
+<g class="alert" fill="none" stroke="#D1242F" stroke-width="6" stroke-linecap="round"><path d="M592 196l-16-8M620 176v-11M648 196l16-8"/></g>
+<path class="alert" d="M604 223v-17a16 16 0 0 1 32 0v17z" fill="#D1242F"/>
+<g class="alert"><rect x="672" y="182" width="112" height="40" fill="#D1242F"/><text x="728" y="212" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#FBFBF7">failed</text></g>
+<path d="M0 342H580M660 342H1200" stroke="#111111" stroke-width="10"/>
+<rect class="flap" x="580" y="337" width="80" height="10" fill="#111111"/>
+<path class="belt" d="M0 368H1200" stroke="#111111" stroke-width="16" stroke-dasharray="24 40"/>
+<g class="stamp" style="fill:none"><path d="M1020 262L950 240" stroke="#3E352C" stroke-width="26" stroke-linecap="round"/><path d="M1020 262L950 240" stroke="#8A7A66" stroke-width="20" stroke-linecap="round"/><circle cx="950" cy="244" r="17" fill="url(#disc)" stroke="#3E352C" stroke-width="2"/></g>
+<rect x="3" y="3" width="1194" height="414" fill="none" stroke="#111111" stroke-width="6"/>
+</g>
 </svg>
